@@ -1,0 +1,15 @@
+version: "3.3"
+
+services:
+  assignment:
+    image: assignment
+    container_name: assignment
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "5003:5003"
+    volumes:
+      - /root/logs:/var/www/logs
+      - /root/uploads/:/var/www/uploads/

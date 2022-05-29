@@ -1,0 +1,39 @@
+# Dependency directories
+node_modules/
+/src/logs/*
+yarn.lock
+# logger
+_log
+#env
+.env
+.env.local
+
+# logger_body
+logs/*
+
+# build
+/build/
+/app/
+
+# uploads
+/src/uploads
+#Log
+/src/logs
+
+/uploads
+
+#yarn
+yarn.lock
+yarn-error.log
+
+.idea
+
+.DS_Store
+
+.vscode/
+
+#DB local
+setup-local/.docker
+
+# Optional eslint cache
+.eslintcache
